@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+.backInd{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+}
+.indivCard{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    background-color:  #008E91;
+
+}
+h2{
+    color:#fdfbf6;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 18px;
+    font-size: 27px;
+    font-weight: 600;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+}
+.textInd{
+    color:#fdfbf6;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 20px;
+}
+
+.imgCard{
+    width: 60vw;
+}
+
+
+.linkInd{
+    color: #008E91;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 20px;
+    margin-left: 18px;
+    display: inline;
+    padding: 5px;
+}
+.linkInd:hover{
+    background-color: rgb(218, 58, 98);
+    color: #fdfbf6;
+
+}
+.buttonArea{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 14px;
+    padding-top: 10px;
+}
