@@ -1,8 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+
 .backInd{
     width: 98vw;
     display: flex;
     justify-content: center;
+    min-height: 92vh;
+}
+.indivCard{
+    margin-top: 80px;
+    margin-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    background-color:  #008E91;
+    height: 46vh;
+}
+h2{
+    color:#fdfbf6;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 18px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+}
+.textInd{
+    color:#fdfbf6;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 17px;
+}
+
+.imgCard{
+    width: 75vw;
+}
+
+
+.linkInd{
+    color: #008E91;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 16px;
+    margin: 5px;
+    display: flex;
+    padding: 5px;
+}
+.linkInd:hover{
+    background-color: rgb(218, 58, 98);
+    color: #fdfbf6;
+
+}
+.buttonArea{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*end mobile section */ 
+
+@media(min-width: 992px){
+
+.backInd{
+
 }
 .indivCard{
     margin-top: 25px;
@@ -44,14 +107,11 @@ h2{
     display: inline;
     padding: 5px;
 }
-.linkInd:hover{
-    background-color: rgb(218, 58, 98);
-    color: #fdfbf6;
 
-}
 .buttonArea{
-    display: flex;
-    justify-content: center;
     padding-bottom: 14px;
     padding-top: 10px;
+}
+
+
 }
