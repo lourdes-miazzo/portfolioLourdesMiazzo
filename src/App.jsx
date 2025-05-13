@@ -13,7 +13,7 @@ function App() {
       image: web1,
       title: "First artist web",
       webdirection: "https://lourdesmiazzo-gilt.vercel.app/index.html",
-      text: `First portfolio website created using semantic HTML, custom CSS and SASS.
+      text: `First artist portfolio website created using semantic HTML, custom CSS and SASS.
               Focused on layout, responsive design and visual presentation.
               Stack: HTML, CSS, SASS`,
       github: "https://github.com/lourdes-miazzo/repo1"
